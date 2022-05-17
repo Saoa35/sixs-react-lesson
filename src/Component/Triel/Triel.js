@@ -6,7 +6,8 @@ class Triel extends React.Component {
 
         return(
             <div>
-              <h2>Triels Component</h2>  
+              <h3 className='h3-test'>Test text2</h3>
+              <h3 className='h3-test'>Test text3</h3> 
             </div>
         )
     }
