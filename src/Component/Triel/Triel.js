@@ -6,7 +6,7 @@ class Triel extends React.Component {
 
         return(
             <div>
-              Triels Component  
+              <h2>Triels Component</h2>  
             </div>
         )
     }
