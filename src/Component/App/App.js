@@ -2,6 +2,8 @@ import React from 'react';
 import StylesCompExamples from '../StylesCompExamples/StylesCompExamples';
 import Triel from '../Triel/Triel';
 import './App.css';
+import clsx from 'clsx';
+
 
 class App extends React.Component {
 
