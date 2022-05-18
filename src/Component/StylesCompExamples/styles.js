@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { css } from 'styled-components';
 
 
 export const Section = styled.section`
@@ -16,4 +17,13 @@ export const Button = styled.button`
     color: grey;
     border: 2px solid grey;
     cursor: pointer;
+
+    ${props => props.primary && 
+        css`
+            background: #8A2BE2;
+            border-color: white;
+            color: white;
+    `}
+    
 `;
+
