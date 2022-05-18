@@ -26,7 +26,17 @@ class App extends React.Component {
 
     return (
       <div className={styles.App}>
-        <h2 style={inlineStyles}>Some Text</h2>
+
+        <h3 className='class1'>
+          Some text styled by SCSS
+
+          <span>
+            Some text in span
+          </span>
+          
+        </h3>
+
+        {/* <h2 style={inlineStyles}>Some Text</h2>
 
         <h4 className={clsx(
           'h3-test', 
@@ -47,7 +57,7 @@ class App extends React.Component {
         <Triel/>
 
         <StylesCompExamples/>
-        
+         */}
       </div>
     );
   }
