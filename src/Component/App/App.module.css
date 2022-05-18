@@ -1,0 +1,13 @@
+/* * {
+  margin: 0;
+} */
+
+.App {
+  background-color: rgb(150, 222, 230);
+  height: 100vh;
+}
+
+.h3-test {
+  color: rgb(99, 82, 52);
+  text-align: center;
+}
