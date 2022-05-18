@@ -3,6 +3,7 @@ import StylesCompExamples from '../StylesCompExamples/StylesCompExamples';
 import Triel from '../Triel/Triel';
 import styles from './App.module.css';
 import clsx from 'clsx';
+import './App.scss';
 
 
 class App extends React.Component {
@@ -41,7 +42,7 @@ class App extends React.Component {
           </button>
         </p>
 
-        <h3 className='h3-test'>Test text1</h3>
+        <h3 className={ styles['h3-test'] }>Test text1</h3>
 
         <Triel/>
 
